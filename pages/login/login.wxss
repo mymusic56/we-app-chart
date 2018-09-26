@@ -1,0 +1,47 @@
+/* pages/login/login.wxss */
+.mycontainer{
+  margin-top: 30%;
+}
+.header-image{
+  width: 150rpx;
+  height: 150rpx;
+  margin-left: 40%;
+}
+
+.header .subtitle{
+  text-align: center;
+  font-size: 30rpx;
+  color: #c0c0c0
+}
+.login-item{
+  display: flex;
+  width: 90%;
+  height: 60rpx;
+  margin-left: 5%;
+  border-bottom: 1px solid #e7e7e7;
+  margin-top: 20rpx;
+}
+.login-item-title{
+  font-size: 35rpx;
+  height: 60rpx;
+}
+
+.login-item-input{
+  display: inline-block;
+  font-size: 30rpx;
+  padding-left: 10rpx;
+}
+
+.login-submit{
+  width: 90%;
+  background: rgb(0, 152, 248);
+  color: #fff;
+  margin-top: 50rpx;
+}
+
+.register{
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+}

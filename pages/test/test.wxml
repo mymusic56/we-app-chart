@@ -1,0 +1,18 @@
+
+<view wx:for="{{foreachData}}" wx:for-item="v" wx:for-index="k">
+  <view wx:if="{{v >= 2}}">
+   {{k}} : {{v}}
+  </view>
+</view>
+<view class='divLine'></view>
+<switch wx:for="{{objectArray}}" wx:key="unique" style="display: block;">{{item.unique}}</switch>
+<view class='divLine'></view>
+
+<button bindtap='switchFunc' class="submit">switch按钮</button>
+
+<view class='divLine'></view>
+
+<view>Template测试(import)：</view>
+<import src="../template/test/mytest.wxml"/>
+
+<template is="msgItem" data="{{...tpl}}"/>

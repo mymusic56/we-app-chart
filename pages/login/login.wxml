@@ -1,0 +1,18 @@
+<view class='mycontainer'>
+  <view class='header'>
+    <image src='{{iconLogo}}' class='header-image'></image>
+    <view class='subtitle'>云信Demo</view>
+  </view>
+  <form bindsubmit='loginSubmit' report-submit='true'>
+    <view class="login-item">
+      <text class='login-item-title'>账号</text>
+      <input class='login-item-input' bindinput='inputHandler' placeholder='请输入' type='text' data-type="account" value='{{account}}'></input>
+    </view>
+    <view class="login-item">
+      <text class='login-item-title'>密码</text>
+      <input class='login-item-input' bindinput='inputHandler' placeholder='请输入' type='text' data-type="password" password value='{{password}}'></input>
+    </view>
+    <button class='login-submit' form-type='submit'>登录</button>
+    <text class='register' bindtap='register'>注册</text>
+  </form>
+</view>
